@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.administrator.myqrcode.MainActivity">
+
+    <Button
+        android:text="扫码"
+        android:id="@+id/id_main_btn_scan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:id="@+id/id_main_tv_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hello World!"/>
+    <EditText
+        android:id="@+id/id_main_et_make_text"
+        android:layout_width="match_parent"
+        android:hint="请输入内容"
+        android:paddingLeft="10dp"
+        android:maxLength="100"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:id="@+id/id_main_btn_make"
+        android:text="生成二维码"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <ImageView
+        android:id="@+id/id_main_iv_make_img"
+        android:src="@mipmap/ic_launcher"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+</LinearLayout>
